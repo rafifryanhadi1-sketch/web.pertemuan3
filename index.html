@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praktikum Minggu 3 - Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Konten akan kita tambahkan di sini -->
+     <!-- ── NAVBAR ─────────────────────── -->
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <span class="logo-icon">&#9670;</span>
+      <span class="logo-text">RafifStudio</span>
+    </div>
+
+    <ul class="navbar__links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="navbar__cta">
+      <a href="#" class="btn-primary">Hire Me</a>
+    </div>
+  </nav>
+<!-- ── HERO SECTION ────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+    <div class="hero__content">
+      <span class="hero__badge">Available for Work</span>
+      <h1 class="hero__title">
+        Hi, saya <span class="highlight">Rafif Ryanhadi</span><br>
+        Web Developer
+      </h1>
+      <p class="hero__desc">
+        Mahasiswa Sistem Informasi dengan pengalaman proyek di bidang
+  pengembangan website, database, dan sistem informasi.
+  Berkomitmen menghadirkan solusi teknologi yang modern dan efektif.
+      </p>
+      <div class="hero__actions">
+        <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+        <a href="#contact" class="btn-outline">Hubungi Saya</a>
+      </div>
+    </div>
+
+    <!-- FOTO PROFIL -->
+  <div class="hero__image">
+  <div class="profile-box">
+    <img src="rafif1.jpg" alt="Rafif Ryanhadi" class="profile-photo">
+  </div>
+</div>
+  </section>
+  <!-- ── SKILLS SECTION ──────────────── -->
+  <section class="skills" id="about">
+    <div class="container">
+      <h2 class="section-title">Keahlian Saya</h2>
+      <p class="section-subtitle">Teknologi yang saya kuasai</p>
+
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128195;</div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, aksesibilitas, dan struktur dokumen yang baik.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#127912;</div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animasi, dan responsive design untuk semua layar.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#9889;</div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, Fetch API, dan logika interaktif modern.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128279;</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, branching, dan kolaborasi tim secara profesional.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#9881;</div>
+          <h3>React</h3>
+          <p>Component-based development dengan hooks dan state management.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128640;</div>
+          <h3>Performance</h3>
+          <p>Optimasi loading, image compression, dan Core Web Vitals.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- portofolio -->
+  <!-- ── PORTFOLIO SECTION ───────────────────── -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2 class="section-title">My Portfolio</h2>
+    <p class="section-subtitle">Beberapa project yang pernah saya kerjakan</p>
+
+    <div class="portfolio__grid">
+
+      <!-- Project 1 -->
+      <div class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="laundry.png" alt="Project 1">
+        </div>
+        <div class="portfolio-card__content">
+          <h3>Website Laundry</h3>
+          <p>
+            Website Laundry Application responsif menggunakan HTML, CSS, dan JavaScript.
+          </p>
+          <div class="portfolio-card__tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="#" class="btn-outline">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="query.png" alt="Project 2">
+        </div>
+        <div class="portfolio-card__content">
+          <h3>Mengelolah Database</h3>
+          <p>
+            Mengelolah database menggunakan navicat dengan bahasa query mysql
+          </p>
+          <div class="portfolio-card__tags">
+            <span>MySQL</span>
+            <span>Navicat</span>
+          </div>
+          <a href="#" class="btn-outline">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="portfolio-card">
+        <div class="portfolio-card__image">
+          <img src="web1.png" alt="Project 3">
+        </div>
+        <div class="portfolio-card__content">
+          <h3>Web Design</h3>
+          <p>
+            membuat web menggunakan html dan css 
+          </p>
+          <div class="portfolio-card__tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+          <a href="#" class="btn-outline">View Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ── CONTACT SECTION ───────────────────── -->
+ <section class="contact" id="contact">
+      <!-- Contact Info -->
+      <div class="contact__info">
+        <h3>Contact Information</h3>
+
+        <div class="contact__item">
+          <span class="contact__icon">📍</span>
+          <div>
+            <p class="contact__label">Location</p>
+            <p>Medan, Sumatra Utara</p>
+          </div>
+        </div>
+
+        <div class="contact__item">
+          <span class="contact__icon">✉️</span>
+          <div>
+            <p class="contact__label">Email</p>
+            <p>rafifryanhadi1@gmail.com</p>
+            </p>
+          </div>
+        </div>
+
+
+        <div class="contact__socials">
+          
+          <a href="https://github.com/rafifryanhadi1-sketch">GitHub</a>
+          <a href="https://www.instagram.com/rafifryann/">Instagram</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+  <!-- ── FOOTER ──────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__brand">&#9670; RafifStudio</span>
+        <p class="footer__copy">
+          &copy; 2025 Rafif Ryanhadi. Dibuat dengan HTML & CSS murni.
+        </p>
+        <div class="footer__links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
